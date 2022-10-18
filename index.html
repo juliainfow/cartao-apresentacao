@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+    
+    <title>Cartão de Apresentação</title>
+  </head>
+  <body>
+    <main class="cartao">
+      <div  class="minhas-informacoes">
+        <img src="./src/imagens/eu(1).jpg"  alt="foto de perfil" /> 
+        <h1 class="nome">Julia Almeida</h1>
+        <h2 class="cargo">Estudante de programação</h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          
+          <li id="sobre-mim" class="aba selecionado">
+            <img src="./src/imagens/sobre.gif" alt="ícone de sobre mim" />
+          </li>
+          <li id="minhas-redes" class="aba id= minhas-redes">
+            <img src="./src/imagens/coracao.gif" alt="ícone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div id="informacao-sobre-mim" class="informacao selecionado" > 
+            <h3 class="sub-titulo">Sobre</h3>
+
+            <div class="descricao">
+              <p>Olá, mundo! Meu nome é Julia Almeida, seja bem-vindo(a)!</p> 
+
+              <p> 
+                  Sou aluna de T.I na especialização de <span> Infomática para Web</span>. 
+                  Sonho em trabalhar com programação (front-end), e para colocar o sonho em prática
+                  estou me dedicando à <span>HTML, CSS E JAVASCRIPT</span>. 
+                  Este projeto  foi desenvolvido para o estudo dessas linguagens.
+                  Gosto de instrumentos de corda e minha série favorita é <span> Black Mirror</span>.
+              </p>
+            </div>
+          </div>
+
+          <div id="informacao-minhas-redes" class="informacao">
+            <h3 class="sub-titulo">Minhas redes</h3>
+
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://www.linkedin.com/in/julia-almeida-1b1552241/" target="_blank" class="linkedin">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/juliainfow" target="_blank" class="github">Github</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/h.annagan/" class="instagram">Instagram</a>
+                </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+
+
+  </body>
+</html>
